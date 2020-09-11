@@ -33,7 +33,7 @@ class MyHomePageState extends State<MyHomePage>{
     // TODO: implement build
     return Scaffold(
         appBar: AppBar(
-            title: Text("AppBar Title", style: TextStyle(color: Colors.yellow)),
+            title: Text("AppBar Title Test", style: TextStyle(color: Colors.yellow)),
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.1))),
         drawer: Drawer(),
